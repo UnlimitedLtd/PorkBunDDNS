@@ -79,7 +79,7 @@ class PorkBun:
             ARecord: Domain A record object.
 
         Raises:
-            HTTPError: If the is a HTTP error.
+            HTTPError: If there is a HTTP error.
         """
 
         response = requests.post(
@@ -113,7 +113,7 @@ class PorkBun:
             ttl: DNS TTL, defaults to 600.
 
         Raises:
-            HTTPError: If the is a HTTP error.
+            HTTPError: If there is a HTTP error.
         """
 
         response = requests.post(
